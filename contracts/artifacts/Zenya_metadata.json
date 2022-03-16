@@ -80,6 +80,19 @@
 				"type": "event"
 			},
 			{
+				"inputs": [],
+				"name": "_totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -144,6 +157,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountPurchased",
+						"type": "uint256"
+					}
+				],
+				"name": "buyToken",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -238,19 +269,6 @@
 				"name": "renounceOwnership",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "standardPrefix",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -457,11 +475,11 @@
 			]
 		},
 		"contracts/Zenya.sol": {
-			"keccak256": "0x750a729721cdd355c6f44131bab0cbf4c68fb42d5768381cae56ecada7c49e2b",
+			"keccak256": "0x517ff213bb70578826cab3128fdc19df64c34a8e29d4e6b5f54e4e6137a9d5b8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6f3285e8150bc99660f0e2059c747979486e1743dee3b488abae085fa2cc713b",
-				"dweb:/ipfs/QmYdg1UA1DMZwpYbJbfeQxXqguv89cKEpd4hFr8s4EMrK1"
+				"bzz-raw://c9ce6e06e75302d47ac35828e546b950b64ab6b0caa3bb44c5cf159ea03c9a36",
+				"dweb:/ipfs/QmSgcRdgcXZG8z7mQjYhnhDwsbFtLx2TQXSsXwc6tmn7v5"
 			]
 		}
 	},
