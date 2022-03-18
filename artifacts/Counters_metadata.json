@@ -6,9 +6,11 @@
 	"output": {
 		"abi": [],
 		"devdoc": {
-			"details": "Provides information about the current execution context, including the sender of the transaction and its data. While these are generally available via msg.sender and msg.data, they should not be accessed in such a direct manner, since when dealing with meta-transactions the account sending and paying for execution may not be the actual sender (as far as an application is concerned). This contract is only required for intermediate, library-like contracts.",
+			"author": "Matt Condon (@shrugs)",
+			"details": "Provides counters that can only be incremented, decremented or reset. This can be used e.g. to track the number of elements in a mapping, issuing ERC721 ids, or counting request ids. Include with `using Counters for Counters.Counter;`",
 			"kind": "dev",
 			"methods": {},
+			"title": "Counters",
 			"version": 1
 		},
 		"userdoc": {
@@ -19,7 +21,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Zenya721_flat.sol": "Context"
+			"Zenya721_flat.sol": "Counters"
 		},
 		"evmVersion": "london",
 		"libraries": {},
